@@ -14,8 +14,7 @@ sections:
     - modules
 
 content: |-
-  # Terraform AWS Module
-  A Terraform module which configures things in the cloud
+  {{ include "./title.md"}}
 
   {{ .Header }}
 
