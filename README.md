@@ -1,10 +1,12 @@
-# Azure Grafana Dashboard Terraform module
-A Terraform module which configures your Azure Grafana Dashboard.  
-[![blackbird-logo](https://raw.githubusercontent.com/blackbird-cloud/terraform-module-template/main/.config/logo_simple.png)](https://www.blackbird.cloud)
+<!-- BEGIN_TF_DOCS -->
+# Terraform Azurerm Dashboard Grafana Module
+Terraform module to create an Azure Grafana dashboard
+
+[![blackbird-logo](https://raw.githubusercontent.com/blackbird-cloud/terraform-module-template/main/.config/logo_simple.png)](https://blackbird.cloud)
 
 ## Example
 ```hcl
- locals {
+locals {
   global = {
     location        = "westeurope"
     subscription_id = "00000000-0000-0000-0000-000000000000"
@@ -96,4 +98,5 @@ Checkout our other :point\_right: [terraform modules](https://registry.terraform
 
 ## Copyright
 
-Copyright © 2017-2023 [Blackbird Cloud](https://www.blackbird.cloud)
+Copyright © 2017-2024 [Blackbird Cloud](https://blackbird.cloud)
+<!-- END_TF_DOCS -->
