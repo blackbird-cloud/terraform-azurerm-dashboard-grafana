@@ -14,23 +14,14 @@ sections:
     - modules
 
 content: |-
-  # <Cloud> <Main resource> Terraform module
-  A Terraform module which configures your <Cloud> <Main resource>. <Relevant docs>
+  # Terraform AWS Module
+  A Terraform module which configures things in the cloud
+
   {{ .Header }}
 
   ## Example
   ```hcl
   {{ include "./example/main.tf" }}
   ```
-
-  {{ .Requirements }}
-
-  {{ .Providers }}
-
-  {{ .Resources }}
-
-  {{ .Inputs }}
-
-  {{ .Outputs }}
 
   {{ .Footer }}
