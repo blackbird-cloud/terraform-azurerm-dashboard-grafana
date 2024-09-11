@@ -24,4 +24,14 @@ content: |-
   {{ include "./example/main.tf" }}
   ```
 
+  {{ .Requirements }}
+
+  {{ .Providers }}
+
+  {{ .Resources }}
+
+  {{ .Inputs }}
+
+  {{ .Outputs }}
+
   {{ .Footer }}
