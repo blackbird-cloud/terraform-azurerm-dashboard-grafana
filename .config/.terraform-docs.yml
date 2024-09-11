@@ -14,7 +14,7 @@ sections:
     - modules
 
 content: |-
-  {{ include "./title.md"}}
+  {{ include "./.config/title.md"}}
 
   {{ .Header }}
 
