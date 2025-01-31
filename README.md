@@ -73,7 +73,7 @@ module "azurerm_dashboard_grafana" {
 | <a name="input_grafana_major_version"></a> [grafana\_major\_version](#input\_grafana\_major\_version) | The major version of Grafana to use. | `string` | `"9"` | no |
 | <a name="input_instance_name"></a> [instance\_name](#input\_instance\_name) | The name of this managed Grafana instance. | `string` | n/a | yes |
 | <a name="input_location"></a> [location](#input\_location) | The location to create the resources in. | `string` | n/a | yes |
-| <a name="input_monitor_workspace"></a> [monitor\_workspace](#input\_monitor\_workspace) | The Azure Monitor Workspace to integrate with Grafana. | <pre>object({<br>    name                                = string<br>    id                                  = string<br>    query_endpoint                      = string<br>    default_data_collection_endpoint_id = string<br>    default_data_collection_rule_id     = string<br>  })</pre> | n/a | yes |
+| <a name="input_monitor_workspace"></a> [monitor\_workspace](#input\_monitor\_workspace) | The Azure Monitor Workspace to integrate with Grafana. | <pre>object({<br/>    name                                = string<br/>    id                                  = string<br/>    query_endpoint                      = string<br/>    default_data_collection_endpoint_id = string<br/>    default_data_collection_rule_id     = string<br/>  })</pre> | n/a | yes |
 | <a name="input_public_network_access_enabled"></a> [public\_network\_access\_enabled](#input\_public\_network\_access\_enabled) | Whether or not public network access is enabled for the Grafana instance. | `bool` | `true` | no |
 | <a name="input_resource_group_name"></a> [resource\_group\_name](#input\_resource\_group\_name) | The name of the resource group to create the resources in. | `string` | n/a | yes |
 | <a name="input_subscription_id"></a> [subscription\_id](#input\_subscription\_id) | The ID of the subscription to create the resources in. | `string` | n/a | yes |
@@ -98,5 +98,5 @@ Checkout our other :point\_right: [terraform modules](https://registry.terraform
 
 ## Copyright
 
-Copyright © 2017-2024 [Blackbird Cloud](https://blackbird.cloud)
+Copyright © 2017-2025 [Blackbird Cloud](https://blackbird.cloud)
 <!-- END_TF_DOCS -->
